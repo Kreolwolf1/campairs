@@ -1,0 +1,34 @@
+<p>
+  <b>Name:</b>
+  <%= name %>
+</p>
+
+<p>
+  <b>Start at:</b>
+  <%= start_at %>
+</p>
+
+<p>
+  <b>End at:</b>
+  <%= end_at %>
+</p>
+
+<p>
+  <b>Countries:</b>
+  <% countries = JSON.parse(countries); %>
+  <% for(key in countries) { %>
+  	<div class="countrie">
+  	  <b><%= key %></b>	
+  	</div>
+    <p>
+	  <% _.each(countries[key], function(lang) { %>
+	  	<div class="language">
+	      <%= lang %>
+	    </div>
+	  <% }); %>
+	</p>
+  <% } %>
+</p>
+
+
+<a href="#/index">Back</a>

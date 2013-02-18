@@ -1,0 +1,27 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: campaings_development
+  port: 5433
+  pool: 5
+  host: localhost
+  username: camp
+  password: 'camp'
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: campaings_test
+  pool: 5
+  port: 5433
+  host: localhost
+  username: camp
+  password: 'camp'
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: Campaings_production
+  pool: 5
+  username: Campaings
+  password:

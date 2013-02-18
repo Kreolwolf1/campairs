@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  start_at: 2013-02-18 01:45:07
+  end_at: 2013-02-18 01:45:07
+  countries: 
+
+two:
+  name: MyString
+  start_at: 2013-02-18 01:45:07
+  end_at: 2013-02-18 01:45:07
+  countries: 
